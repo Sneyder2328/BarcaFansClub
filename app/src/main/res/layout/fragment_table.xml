@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.twismart.barcafansclub.Fragments.TableFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:background="#C0EBFF"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="0.95"
+            android:layout_height="wrap_content"
+            style="@style/fragmentTable"
+            android:text="#"/>
+
+        <TextView
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.83"
+            style="@style/fragmentTable"
+            android:gravity="start"
+            android:text="@string/table_team"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/fragmentTable"
+            android:text="@string/table_matches"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/fragmentTable"
+            android:text="@string/table_won"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/fragmentTable"
+            android:text="@string/table_drawn"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/fragmentTable"
+            android:text="@string/table_lost"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            style="@style/fragmentTable"
+            android:text="@string/table_gd"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            style="@style/fragmentTable"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="@string/table_pts"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearClubs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

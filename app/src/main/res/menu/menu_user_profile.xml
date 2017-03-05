@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mute"
+        android:title="@string/user_profile_menu_mute"/>
+    <item
+        android:id="@+id/block"
+        android:title="@string/user_profile_menu_block"/>
+    <item
+        android:id="@+id/report"
+        android:title="@string/user_profile_menu_report"/>
+</menu>

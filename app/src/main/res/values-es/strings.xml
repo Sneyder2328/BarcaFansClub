@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BarcaFansClub</string>
+    <string name="welcome_sign_up">Registrarte</string>
+    <string name="welcome_log_in">Iniciar sesión</string>
+    <string name="welcome_login_missing_email">Debe ingresar su correo electrónico</string>
+    <string name="welcome_login_missing_password">Debe ingresar su contraseña</string>
+
+    <string name="register_name">Nombre</string>
+    <string name="register_email">Correo electrónico</string>
+    <string name="register_password">Contraseña</string>
+    <string-array name="register_languages">
+        <item>Seleccionar idioma:</item>
+        <item>Inglés</item>
+        <item>Español</item>
+        <item>Catalán</item>
+    </string-array>
+    <string name="register_sign_up">Registrarte</string>
+    <string name="register_missing_name">Debe ingresar su nombre</string>
+    <string name="register_missing_email">Debe ingresar su correo electrónico</string>
+    <string name="register_missing_password">Debe ingresar una contraseña</string>
+    <string name="register_missing_language">Debe seleccionar su idioma</string>
+    <string name="social_header_text">¿Que está pasando?</string>
+    <string name="new_post_title">Publicar</string>
+    <string name="new_post_button">Publicar</string>
+    <string name="viewpost_write_new_comment">Escribir un comentario&#8230;</string>
+    <string name="viewpost_button_send_comment">Enviar</string>
+    <string name="format_date">hace %s</string>
+
+
+
+
+    <string-array name="new_post_options_add_img">
+        <item>Tomar foto</item>
+        <item>Elegir imagen</item>
+    </string-array>
+    <string name="table_team">Equipo</string>
+    <string name="table_won">G</string>
+    <string name="table_matches">PJ</string>
+    <string name="table_drawn">E</string>
+    <string name="table_lost">P</string>
+    <string name="table_gd">DIF</string>
+    <string name="table_pts">PTS</string>
+    <string name="my_profile_username">Nombre</string>
+    <string name="myprofile_save_profile">Guardar</string>
+    <string name="my_profile_changes_saved">Se han guardado los cambios</string>
+    <string name="app_net_error">Error de red</string>
+    <string name="fcb_tab_table">Tabla</string>
+    <string name="fcb_tab_news">Noticias</string>
+    <string name="fcb_tab_matches">Partidos</string>
+    <string name="main_tab_social">Social</string>
+    <string name="main_tab_notifications">Notificaciones</string>
+    <string name="fcb_tab_profile">Perfil</string>
+
+
+    <string-array name="more_options_list">
+        <item>Mi perfil</item>
+        <item>Política de privacidad</item>
+        <item>Terminos de uso</item>
+        <item>Reportar un problema</item>
+        <item>Cerrar sesión</item>
+    </string-array>
+
+
+
+    <string-array name="type_problems">
+        <item>Seleccionar tipo de problema:</item>
+        <item>Noticias sociales</item>
+        <item>Fotos</item>
+        <item>Noticias del Barca</item>
+        <item>Perfil</item>
+        <item>Privacidad</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="post_more_options">
+        <item>Reportar publicación</item>
+    </string-array>
+
+    <string-array name="my_post_more_options">
+        <item>Editar publicación</item>
+        <item>Eliminar publicación</item>
+    </string-array>
+
+    <string-array name="list_options_report_user">
+        <item>I\'m not interested in this account</item>
+        <item>They are posting spam</item>
+        <item>Their account may be hacked</item>
+        <item>They\'re being abusive or harmful</item>
+    </string-array>
+
+    <string name="user_profile_button_edit_profile">Editar perfil</string>
+    <string name="user_profile_button_follow">Seguir</string>
+    <string name="welcome_text_welcome">Bienvenido a</string>
+    <string name="main_tab_fcb">FCB</string>
+    <string name="register.text.acceptpolicy">Al registrarte, automaticamente aceptas nuestras <a href="http://34.199.104.254/privacypolicy.html">politicas de privacidad</a> y <a href="http://34.199.104.254/termsofuse.html">terminos de uso</a></string>
+    <string name="read_external_storage_permission_failure">La negación del permiso de lectura de almacenamiento externo ha deshabilitado la posibilidad de subir archivos al servidor</string>
+    <string name="read_external_storage_permission_failure_title">Sin autorización</string>
+    <string name="register_progressbar_creating_profile">Creando perfil&#8230;</string>
+    <string name="report_problem_button_submit">Enviar</string>
+    <string name="report_problem_description_hint">¿Qué salió mal?</string>
+    <string name="report_problem_activity_title">Infórmenos sobre un fallo en la app</string>
+    <string name="report_problem_missing_type_problem">Debe seleccionar el tipo de problema a reportar</string>
+    <string name="report_problem_progressbar_reporting_bug">Reportando problema&#8230;</string>
+    <string name="report_problem_successfully">Problema reportado exitosamente</string>
+    <string name="report_problem_missing_description">Debe ingresar la descripción del problema</string>
+    <string name="welcome_login_error">Error al intentar iniciar sesión</string>
+    <string name="welcome_login_progressbar_logging_in">Iniciando sesión&#8230;</string>
+    <string name="match_detailed_tab_comments">Comentarios</string>
+    <string name="match_detailed_tab_lineups">Alineaciones</string>
+    <string name="match_detailed_tab_live">En vivo</string>
+    <string name="match_detailed_tab_preview">Previa</string>
+    <string name="match_detailed_tab_stats">Estadisticas</string>
+    <string name="user_profile_button_following">Siguiendo</string>
+    <string name="user_profile_text_unfollow">Dejar de  seguir</string>
+    <string name="user_profile_dialog_stop_following">¿Dejar de seguir a %s?</string>
+    <string name="user_profile_menu_block">Bloquear a</string>
+    <string name="user_profile_menu_mute">Silenciar a</string>
+    <string name="user_profile_menu_report">Reportar a</string>
+    <string name="user_profile_dialog_mute_user">¿Silenciar a %s?</string>
+    <string name="user_profile_text_user_muted">Has silenciado las publicaciones de esta cuenta</string>
+    <string name="user_profile_text_user_unmute">Dejar de silenciar</string>
+    <string name="user_profile_text_mute">No veras más publicaciones de %s en tu timeline, pero continuaras recibiendo sus notificaciones</string>
+    <string name="user_profile_dialog_title_block_user">¿Bloquear a %s?</string>
+    <string name="user_profile_dialog_block_user">%s ya no podrá seguirte ni interactuar contigo</string>
+    <string name="user_profile_menu_unblock">Desbloquear</string>
+    <string name="user_profile_menu_unmute">Dejar de silenciar</string>
+    <string name="label_report_user">Reportar un problema</string>
+    <string name="unIterestingAccountTitle">Gracias por dejarnos saber</string>
+    <string name="notification_text_comment_post">%s Comento tu publicación</string>
+    <string name="notification_text_followed">%s te ha seguido</string>
+    <string name="notification_text_liked_comment">A %s le gusto tu comentario</string>
+    <string name="notification_text_liked_post">A %s le gusto tu publicación</string>
+    <string name="report_user_textview">Help us understand the issue with %s. What\'s the problem with this account?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="viewpost_label">Publicación</string>
+    <string name="new_post_label_edit">Editar publicación</string>
+    <string name="new_post_button_save_post_edited">Guardar</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BarcaFansClub</string>
+    <string name="welcome_sign_up">Sign up</string>
+    <string name="welcome_log_in">Log in</string>
+    <string name="welcome_login_missing_email">You must enter your email</string>
+    <string name="welcome_login_missing_password">You must enter your password</string>
+
+    <string name="register_name">Name</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string-array name="register_languages">
+        <item>Select language:</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Catalan</item>
+    </string-array>
+    <string name="register_sign_up">Sign up</string>
+    <string name="register_missing_name">You must enter your name</string>
+    <string name="register_missing_email">You must enter your email</string>
+    <string name="register_missing_password">You must enter a password</string>
+    <string name="register_missing_language">You must select your language</string>
+    <string name="social_header_text">What\'s happening?</string>
+    <string name="new_post_title">Post</string>
+    <string name="new_post_button">Post</string>
+    <string name="viewpost_write_new_comment">Write a comment&#8230;</string>
+    <string name="viewpost_button_send_comment">Send</string>
+    <string name="format_date">%s ago</string>
+
+
+    <string-array name="new_post_options_add_img">
+        <item>Take photo</item>
+        <item>Choose existing photo</item>
+    </string-array>
+
+    <string name="table_team">Team</string>
+    <string name="table_matches">P</string>
+    <string name="table_won">W</string>
+    <string name="table_drawn">D</string>
+    <string name="table_lost">L</string>
+    <string name="table_gd">GD</string>
+    <string name="table_pts">PTS</string>
+    <string name="my_profile_username">User name</string>
+    <string name="myprofile_save_profile">Save</string>
+    <string name="my_profile_changes_saved">Has been saved the changes</string>
+    <string name="app_net_error">Connection error</string>
+    <string name="fcb_tab_news">News</string>
+    <string name="fcb_tab_matches">Matches</string>
+    <string name="fcb_tab_table">Table</string>
+    <string name="main_tab_social">Social</string>
+    <string name="main_tab_fcb">FCB</string>
+    <string name="main_tab_notifications">Notifications</string>
+    <string name="fcb_tab_profile">Profile</string>
+
+    <string-array name="more_options_list">
+        <item>My profile</item>
+        <item>Privacy policy</item>
+        <item>Terms of use</item>
+        <item>Report a problem</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <string-array name="type_problems">
+        <item>Select type of problem:</item>
+        <item>News feed</item>
+        <item>Photos</item>
+        <item>News Barca</item>
+        <item>Profile</item>
+        <item>Privacy</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="post_more_options">
+        <item>Report post</item>
+    </string-array>
+
+    <string-array name="my_post_more_options">
+        <item>Edit Post</item>
+        <item>Delete Post</item>
+    </string-array>
+
+    <string-array name="list_options_report_user">
+        <item>I\'m not interested in this account</item>
+        <item>They are posting spam</item>
+        <item>Their account may be hacked</item>
+        <item>They\'re being abusive or harmful</item>
+    </string-array>
+
+
+    <string name="user_profile_button_edit_profile">Edit profile</string>
+    <string name="user_profile_button_follow">Follow</string>
+    <string name="welcome_text_welcome">Welcome to</string>
+    <string name="register.text.acceptpolicy">By register you accept our <a href="http://34.199.104.254/privacypolicy.html">privacy policy</a> and <a href="http://34.199.104.254/termsofuse.html">terms of use</a></string>
+    <string name="read_external_storage_permission_failure">Denial of Read External Storage Permission has disabled the ability to upload user files.</string>
+    <string name="read_external_storage_permission_failure_title">Permission failure</string>
+    <string name="register_progressbar_creating_profile">Creating profile&#8230;</string>
+    <string name="report_problem_button_submit">Submit</string>
+    <string name="report_problem_description_hint">What went wrong?</string>
+    <string name="report_problem_activity_title">Let us know about a broken feature</string>
+    <string name="report_problem_missing_type_problem">You must select your type of problem</string>
+    <string name="report_problem_progressbar_reporting_bug">Reporting problem&#8230;</string>
+    <string name="report_problem_successfully">Problem reported successfully</string>
+    <string name="report_problem_missing_description">You must enter the description of the problem</string>
+    <string name="welcome_login_error">Error trying to login</string>
+    <string name="welcome_login_progressbar_logging_in">Logging in&#8230;</string>
+    <string name="match_detailed_tab_preview">Preview</string>
+    <string name="match_detailed_tab_live">Live</string>
+    <string name="match_detailed_tab_comments">Comments</string>
+    <string name="match_detailed_tab_lineups">Lineups</string>
+    <string name="match_detailed_tab_stats">Stats</string>
+
+    <string name="user_profile_button_following">Following</string>
+    <string name="user_profile_text_unfollow">Unfollow</string>
+    <string name="user_profile_dialog_stop_following">Stop following %s?</string>
+    <string name="user_profile_menu_report">Report</string>
+    <string name="user_profile_menu_mute">Mute</string>
+    <string name="user_profile_menu_block">Block</string>
+    <string name="user_profile_dialog_mute_user">Mute %s?</string>
+    <string name="user_profile_text_mute">You wont see %s\'s posts in your timeline,but you will continue to see notifications.</string>
+    <string name="user_profile_text_user_muted">You have muted Posts from this account</string>
+    <string name="user_profile_text_user_unmute">Unmute</string>
+    <string name="user_profile_dialog_title_block_user">Block %s?</string>
+    <string name="user_profile_dialog_block_user">%s will no longer be able to follow or interact with you</string>
+    <string name="user_profile_menu_unblock">Unblock</string>
+    <string name="user_profile_menu_unmute">Unmute</string>
+    <string name="report_user_textview">Help us understand the issue with %s. What\'s the problem with this account?</string>
+    <string name="label_report_user">Report an issue</string>
+    <string name="unIterestingAccountTitle">Thanks for letting us know</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification_text_liked_post">%s liked your post</string>
+    <string name="notification_text_liked_comment">%s liked your comment</string>
+    <string name="notification_text_comment_post">%s commented your post</string>
+    <string name="notification_text_followed">%s followed you</string>
+    <string name="viewpost_label">Post</string>
+    <string name="new_post_label_edit">Edit post</string>
+    <string name="new_post_button_save_post_edited">Save</string>
+</resources>

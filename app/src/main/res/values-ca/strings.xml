@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BarcaFansClub</string>
+    <string name="app_net_error">Error de connexió</string>
+    <string name="fcb_tab_matches">Partits</string>
+    <string name="fcb_tab_news">Notícies</string>
+    <string name="fcb_tab_profile">Perfil</string>
+    <string name="fcb_tab_table">Classificació</string>
+    <string name="format_date">fa %s</string>
+    <string name="main_tab_fcb">FCB</string>
+    <string name="main_tab_notifications">Notificacions</string>
+    <string name="main_tab_social">Social</string>
+    <string name="my_profile_changes_saved">S\'han guardat els canvis</string>
+    <string name="my_profile_username">Nom d\'usuari</string>
+    <string name="myprofile_save_profile">Guardar</string>
+    <string name="new_post_button">Publicar</string>
+    <string name="new_post_title">Publicar</string>
+    <string name="register_email">Correu electrònic</string>
+    <string name="register_missing_email">Ha de introduir el seu correu electrònic</string>
+    <string name="register_missing_language">Heu de seleccionar el seu idioma</string>
+    <string name="register_missing_name">Ha d\'introduir el seu nom</string>
+    <string name="register_missing_password">Introduïu una contrasenya</string>
+    <string name="register_name">Nom</string>
+    <string name="register_password">Contrasenya</string>
+    <string name="register_sign_up">Registra\'t</string>
+    <string name="social_header_text">¿Que està passant?</string>
+    <string name="table_drawn">E</string>
+    <string name="table_gd">DIF</string>
+    <string name="table_lost">P</string>
+    <string name="table_matches">PJ</string>
+    <string name="table_pts">PTS</string>
+    <string name="table_team">Equip</string>
+    <string name="table_won">G</string>
+    <string name="user_profile_button_edit_profile">Edita perfil</string>
+    <string name="user_profile_button_follow">Segueix</string>
+    <string name="viewpost_button_send_comment">Enviar</string>
+    <string name="viewpost_write_new_comment">Escriu un comentari&#8230;</string>
+    <string name="welcome_log_in">Iniciar sessió</string>
+    <string name="welcome_login_missing_email">Ha de introduir el seu correu electrònic</string>
+    <string name="welcome_login_missing_password">Has d\'introduir la contrasenya</string>
+    <string name="welcome_sign_up">Registra\'t</string>
+    <string name="welcome_text_welcome">Benvingut a</string>
+
+    <string-array name="register_languages">
+        <item>Seleccionar idioma:</item>
+        <item>Anglès</item>
+        <item>Espanyol</item>
+        <item>Català</item>
+    </string-array>
+
+    <string-array name="new_post_options_add_img">
+        <item>Fer una foto</item>
+        <item>Triar imatge</item>
+    </string-array>
+
+    <string-array name="more_options_list">
+        <item>El meu perfil</item>
+        <item>Política de privacitat</item>
+        <item>Condicions d\'ús</item>
+        <item>Avisa d\'un error</item>
+        <item>Tancar sessió</item>
+    </string-array>
+
+    <string-array name="type_problems">
+        <item>Seleccionar tipus de problema:</item>
+        <item>Notícies socials</item>
+        <item>Fotos</item>
+        <item>Notícies del Barça</item>
+        <item>Perfil</item>
+        <item>Privadesa</item>
+        <item>Un altre</item>
+    </string-array>
+
+    <string-array name="post_more_options">
+        <item>Reportar publicació</item>
+    </string-array>
+
+    <string-array name="my_post_more_options">
+        <item>Editar publicació</item>
+        <item>Eliminar publicació</item>
+    </string-array>
+
+    <string-array name="list_options_report_user">
+        <item>I\'m not interested in this account</item>
+        <item>They are posting spam</item>
+        <item>Their account may be hacked</item>
+        <item>They\'re being abusive or harmful</item>
+    </string-array>
+
+    <string name="register.text.acceptpolicy">En registrar, automàticament acceptes les nostres <a href="http://34.199.104.254/privacypolicy.html">polítiques de privacitat</a> i <a href="http://34.199.104.254/termsofuse.html">termes d\'ús</a></string>
+    <string name="read_external_storage_permission_failure">La negació del permís de lectura d\'emmagatzematge extern ha desactivat la possibilitat de pujar arxius al servidor</string>
+    <string name="read_external_storage_permission_failure_title">Sense autorització</string>
+    <string name="register_progressbar_creating_profile">Creant perfil&#8230;</string>
+    <string name="report_problem_button_submit">Enviar</string>
+    <string name="report_problem_description_hint">Que ha anat malament?</string>
+    <string name="report_problem_activity_title">Informeu-nos d\'un error en l\'app</string>
+    <string name="report_problem_missing_type_problem">Heu de seleccionar el tipus de problema a reportar</string>
+    <string name="report_problem_progressbar_reporting_bug">Reportant problema&#8230;</string>
+    <string name="report_problem_successfully">Problema reportat reeixidament</string>
+    <string name="report_problem_missing_description">Ha d\'introduir la descripció del problema</string>
+    <string name="welcome_login_error">Error en intentar iniciar sessió</string>
+    <string name="welcome_login_progressbar_logging_in">Iniciant sessió&#8230;</string>
+    <string name="match_detailed_tab_comments">Comentarios</string>
+    <string name="match_detailed_tab_lineups">Alineaciones</string>
+    <string name="match_detailed_tab_live">En vivo</string>
+    <string name="match_detailed_tab_stats">Estadisticas</string>
+    <string name="match_detailed_tab_preview">Previa</string>
+    <string name="user_profile_button_following">Seguint</string>
+    <string name="user_profile_text_unfollow">Deixar de  seguir</string>
+    <string name="user_profile_dialog_stop_following">¿Dejar de seguir a %s?</string>
+    <string name="user_profile_menu_block">Bloca</string>
+    <string name="user_profile_menu_mute">Silencia</string>
+    <string name="user_profile_menu_report">Denuncia</string>
+    <string name="user_profile_dialog_mute_user">¿Silencia %s?</string>
+    <string name="notification_text_liked_comment">A %s li agrada el teu comentari</string>
+    <string name="notification_text_liked_post">A %s li agrada el teu publicació</string>
+    <string name="notification_text_comment_post">%s comento la teva publicació</string>
+    <string name="notification_text_followed">%s t\'ha començat a seguir</string>
+    <string name="report_user_textview">Help us understand the issue with %s. What\'s the problem with this account?</string>
+    <string name="unIterestingAccountTitle">Gràcies per informar-nos</string>
+    <string name="user_profile_dialog_title_block_user">¿Bloca a %s?</string>
+    <string name="user_profile_menu_unblock">Desbloca</string>
+    <string name="user_profile_menu_unmute">Deixa de silenciar</string>
+    <string name="user_profile_text_mute">You wont see %s\'s posts in your timeline,but you will continue to see notifications.</string>
+    <string name="user_profile_text_user_muted">Has silenciat les publicacions d\'aquest compte</string>
+    <string name="user_profile_text_user_unmute">Deixa de silenciar</string>
+    <string name="user_profile_dialog_block_user">%s ja no podrà seguir-te ni interactuar amb tu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_report_user">Informa d\'un problema</string>
+    <string name="viewpost_label">Publicació</string>
+    <string name="new_post_label_edit">Editar publicació</string>
+    <string name="new_post_button_save_post_edited">Guardar</string>
+
+</resources>

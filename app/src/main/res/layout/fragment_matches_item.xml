@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="?android:selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:text="date"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/homeTeam"
+            android:layout_width="0px"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="6dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="homeTeam"/>
+
+        <ImageView
+            android:id="@+id/icHomeTeam"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_camera_alt_black_24dp"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4-1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:id="@+id/icAwayTeam"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_camera_alt_black_24dp"/>
+
+        <TextView
+            android:id="@+id/awayTeam"
+            android:layout_width="0px"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="awayTeam"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17sp"
+        android:text="time"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="1dp"
+        android:background="#A8A8A8"/>
+
+</LinearLayout>
