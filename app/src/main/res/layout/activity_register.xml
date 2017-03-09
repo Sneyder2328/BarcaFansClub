@@ -17,27 +17,6 @@
         android:orientation="vertical"
         tools:context="com.twismart.barcafansclub.Activities.RegisterActivity">
 
-        <!--soonly
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="155dp">
-
-            <ImageView
-                android:id="@+id/myImgCover"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/colorPrimary"
-                android:scaleType="centerCrop"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="42dp"
-                android:src="@drawable/add_photo" />
-
-        </FrameLayout>
-        -->
-
         <FrameLayout
             android:layout_width="100dp"
             android:layout_height="100dp"

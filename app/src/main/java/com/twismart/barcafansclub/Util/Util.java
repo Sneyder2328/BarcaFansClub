@@ -41,7 +41,7 @@ public class Util {
     public static File saveToInternalStorage(Context context, Bitmap bitmapImage){
         ContextWrapper cw = new ContextWrapper(context);
 
-        File directory = cw.getDir("imageDir", Context.MODE_PRIVATE);
+        File directory = cw.getDir("imageDir", Context.MODE_WORLD_WRITEABLE);
 
         File mypath = new File(directory, "BarcaFansClub" + (System.currentTimeMillis()/1000) + ".png");
 

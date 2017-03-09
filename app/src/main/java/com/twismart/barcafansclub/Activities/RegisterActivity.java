@@ -40,7 +40,6 @@ import com.twismart.barcafansclub.Adapters.CircleImageView;
 import com.twismart.barcafansclub.AppController;
 import com.twismart.barcafansclub.Util.Constants;
 import com.twismart.barcafansclub.Util.PreferencesLogin;
-import com.twismart.barcafansclub.R;
 import com.twismart.barcafansclub.Util.Util;
 
 import java.io.File;

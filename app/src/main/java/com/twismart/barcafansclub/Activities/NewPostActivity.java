@@ -39,7 +39,6 @@ import com.squareup.picasso.Picasso;
 import com.twismart.barcafansclub.Adapters.CircleImageView;
 import com.twismart.barcafansclub.AppController;
 import com.twismart.barcafansclub.Pojos.Post;
-import com.twismart.barcafansclub.R;
 import com.twismart.barcafansclub.Util.Constants;
 import com.twismart.barcafansclub.Util.PreferencesLogin;
 import com.twismart.barcafansclub.Util.Util;
@@ -48,7 +47,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 
