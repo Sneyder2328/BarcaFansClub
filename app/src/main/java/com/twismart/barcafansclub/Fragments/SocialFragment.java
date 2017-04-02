@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -38,6 +39,7 @@ public class SocialFragment extends Fragment {
     private boolean loadingMorePosts = true;
 
     public SocialFragment() {
+
     }
 
     @Override
@@ -51,7 +53,7 @@ public class SocialFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.listPosts);
         final LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(linearLayoutManager);
-        recyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 //Log.d(TAG, "onScrolled getItemCount " + linearLayoutManager.getItemCount() + " findLastVisibleItemPosition " + linearLayoutManager.findLastVisibleItemPosition());

@@ -3,9 +3,6 @@ package com.twismart.barcafansclub.Util;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
-
-import com.twismart.barcafansclub.Util.Util;
-
 import org.json.JSONObject;
 
 /**
