@@ -8,6 +8,8 @@ import com.amazonaws.mobile.AWSMobileClient;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
+import com.facebook.stetho.Stetho;
+
 import android.support.multidex.MultiDexApplication;
 
 /**
@@ -27,6 +29,9 @@ public class AppController extends MultiDexApplication {
         Log.d(LOG_TAG, "Application.onCreate - Initializing application...");
         super.onCreate();
         initializeApplication();
+        if (BuildConfig.DEBUG){//if it is debugging init Stetho
+            Stetho.initializeWithDefaults(this);
+        }
         Log.d(LOG_TAG, "Application.onCreate - Application initialized OK");
     }
 

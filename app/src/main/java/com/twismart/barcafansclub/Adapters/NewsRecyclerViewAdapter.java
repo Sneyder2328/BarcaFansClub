@@ -27,7 +27,7 @@ import java.util.List;
 
 public class NewsRecyclerViewAdapter extends RecyclerView.Adapter<NewsRecyclerViewAdapter.MyItemNewViewHolder> {
 
-    private static final String TAG = "NewsRecyclerViewAdapter";
+    private final String TAG = getClass().getSimpleName();
     private List<NewFCB> listNews = new ArrayList<>();
     private Context context;
 
@@ -52,12 +52,7 @@ public class NewsRecyclerViewAdapter extends RecyclerView.Adapter<NewsRecyclerVi
 
     @Override
     public int getItemCount() {
-        if(!listNews.isEmpty()){
-            return listNews.size();
-        }
-        else{
-            return 0;
-        }
+        return listNews != null ? listNews.size() :  0;
     }
 
     class MyItemNewViewHolder extends RecyclerView.ViewHolder {
